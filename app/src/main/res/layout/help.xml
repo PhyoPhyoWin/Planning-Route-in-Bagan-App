@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/ycc_logo"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ycc"/>
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1f1993"
+            android:text="University of Technology(Yatanarpon Cyber City)"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/de"
+        android:textColor="#1f1993"
+        android:layout_below="@id/ycc_logo"
+        android:text="Developed by Phyo Phyo Win"
+        />
+    <TextView
+        android:id="@+id/help_text"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/de"
+        android:textSize="16dp"
+        android:textColor="#1f1993"/>
+
+</RelativeLayout>

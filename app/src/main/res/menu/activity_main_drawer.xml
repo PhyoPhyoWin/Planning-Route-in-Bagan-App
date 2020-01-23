@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Get Location" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_drawer_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_rental"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Find Ebike Rental" />
+        <item
+            android:id="@+id/nav_choosepagoda"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Choose Pagodas" />
+        <item
+            android:id="@+id/nav_viewrest"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Hotel Lists" />
+        <item
+            android:id="@+id/nav_nearestrest"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Find Nearest Restaurants" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="About"
+            />
+    </group>
+
+
+
+</menu>

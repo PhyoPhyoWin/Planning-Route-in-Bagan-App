@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+   >
+    <TextView
+        android:layout_marginTop="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Optimal Route is"
+        android:textSize="25dp"
+        android:textColor="#bd1515"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/shortest_route"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1f1993"
+        android:text="Route"/>
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/shortest_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#b56363"
+        android:text="Distance"/>
+    <TextView
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/total_time_ebike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#b56363"
+        android:text="Time"/>
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/total_time_bicycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#b56363"
+        android:text="Time"/>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="View Map"
+    android:backgroundTint="#3f4db5"
+    android:layout_marginLeft="120dp"
+    android:textColor="#FFFFFF"
+    android:id="@+id/view_route"/>
+</LinearLayout>
